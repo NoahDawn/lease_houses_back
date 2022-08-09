@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<input type="file" id="pic" name="pic">
+<button onclick="upload()">upload</button>
+<button onclick="test()">测试专用</button>
+<div id="content"></div>
+<script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<!--<script src="1.js"></script>-->
+<script>
+    //这个是图片的
+    function upload() {
+        if ($('#pic').val() !== '') {
+            var formData = new FormData();
+            formData.append('photo', $('#pic')[0].files[0]);
+            $.ajax({
+                url:"http://localhost:8000/upload",
+                type:"post",
+                data: formData,
+                contentType: false,
+                processData: false,
+                success: function(data) {
+                    alert("上传成功")
+                },
+                error:function(data) {
+                    alert("上传失败")
+                }
+            });
+        }
+    }
+    //这个是测试其他的
+    function test() {
+        //请求参数
+        var data = {
+            houseid:1,
+        };
+        $.ajax({
+            url:"http://localhost:8000/api/house/list",
+            type:"get",//get、post自己改
+            dataType:"json",
+            data: data,//get的话就不要这个了
+            success: function(data) {
+                // $('#content').innerHTML=data;
+                console.log(data);
+            },
+            error:function(data) {
+                alert("请求失败")
+            }
+        });
+    }
+</script>
+</body>
+</html>

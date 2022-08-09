@@ -1,0 +1,1668 @@
+Error: Connection lost: The server closed the connection.
+    at Protocol.end (/www/wwwroot/lease_house/node_modules/mysql/lib/protocol/Protocol.js:112:13)
+    at Socket.<anonymous> (/www/wwwroot/lease_house/node_modules/mysql/lib/Connection.js:94:28)
+    at Socket.<anonymous> (/www/wwwroot/lease_house/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (events.js:322:22)
+    at endReadableNT (_stream_readable.js:1187:12)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21)
+Error: Connection lost: The server closed the connection.
+    at Protocol.end (/www/wwwroot/lease_house/node_modules/mysql/lib/protocol/Protocol.js:112:13)
+    at Socket.<anonymous> (/www/wwwroot/lease_house/node_modules/mysql/lib/Connection.js:94:28)
+    at Socket.<anonymous> (/www/wwwroot/lease_house/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (events.js:322:22)
+    at endReadableNT (_stream_readable.js:1187:12)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21)
+Error: Connection lost: The server closed the connection.
+    at Protocol.end (/www/wwwroot/lease_house/node_modules/mysql/lib/protocol/Protocol.js:112:13)
+    at Socket.<anonymous> (/www/wwwroot/lease_house/node_modules/mysql/lib/Connection.js:94:28)
+    at Socket.<anonymous> (/www/wwwroot/lease_house/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (events.js:322:22)
+    at endReadableNT (_stream_readable.js:1187:12)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21)
+Error: Connection lost: The server closed the connection.
+    at Protocol.end (/www/wwwroot/lease_house/node_modules/mysql/lib/protocol/Protocol.js:112:13)
+    at Socket.<anonymous> (/www/wwwroot/lease_house/node_modules/mysql/lib/Connection.js:94:28)
+    at Socket.<anonymous> (/www/wwwroot/lease_house/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (events.js:322:22)
+    at endReadableNT (_stream_readable.js:1187:12)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21)
+Error: Connection lost: The server closed the connection.
+    at Protocol.end (/www/wwwroot/lease_house/node_modules/mysql/lib/protocol/Protocol.js:112:13)
+    at Socket.<anonymous> (/www/wwwroot/lease_house/node_modules/mysql/lib/Connection.js:94:28)
+    at Socket.<anonymous> (/www/wwwroot/lease_house/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (events.js:322:22)
+    at endReadableNT (_stream_readable.js:1187:12)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21)
+2020-05-31 16:45:50: 
+2020-05-31 16:45:50:   TypeError: Cannot read property 'house' of undefined
+      at /www/wwwroot/lease_house/app.js:141:37
+      at processTicksAndRejections (internal/process/task_queues.js:97:5)
+      at async cors (/www/wwwroot/lease_house/node_modules/koa2-cors/dist/index.js:91:9)
+      at async /www/wwwroot/lease_house/app.js:67:5
+      at async serve (/www/wwwroot/lease_house/node_modules/koa-static/index.js:53:9)
+      at async logger (/www/wwwroot/lease_house/node_modules/koa-logger/index.js:67:7)
+      at async bodyParser (/www/wwwroot/lease_house/node_modules/koa-bodyparser/index.js:82:48)
+2020-05-31 16:45:50: 
+2020-05-31 16:45:50: server error:  TypeError: Cannot read property 'house' of undefined
+    at /www/wwwroot/lease_house/app.js:141:37
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async cors (/www/wwwroot/lease_house/node_modules/koa2-cors/dist/index.js:91:9)
+    at async /www/wwwroot/lease_house/app.js:67:5
+    at async serve (/www/wwwroot/lease_house/node_modules/koa-static/index.js:53:9)
+    at async logger (/www/wwwroot/lease_house/node_modules/koa-logger/index.js:67:7)
+    at async bodyParser (/www/wwwroot/lease_house/node_modules/koa-bodyparser/index.js:82:48) {
+  request: {
+    method: 'POST',
+    url: '/api/house/new?ownerId',
+    header: {
+      accept: 'application/json, text/plain, */*',
+      'content-type': 'application/json;charset=utf-8',
+      'content-length': '939',
+      host: '101.200.134.15:8000',
+      connection: 'Keep-Alive',
+      'accept-encoding': 'gzip',
+      'user-agent': 'okhttp/3.14.1'
+    }
+  },
+  response: {
+    status: 404,
+    message: 'Not Found',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': '*',
+      'access-control-expose-headers': 'WWW-Authenticate,Server-Authorization'
+    }
+  },
+  app: { subdomainOffset: 2, proxy: false, env: 'development' },
+  originalUrl: '/api/house/new?ownerId',
+  req: '<original node req>',
+  res: '<original node res>',
+  socket: '<original node socket>'
+}
+2020-05-31 17:01:44: 
+2020-05-31 17:01:44:   Error: bad content-type header, no multipart boundary
+      at IncomingForm._parseContentType (/www/wwwroot/lease_house/node_modules/formidable/lib/incoming_form.js:279:19)
+      at IncomingForm.writeHeaders (/www/wwwroot/lease_house/node_modules/formidable/lib/incoming_form.js:144:8)
+      at IncomingForm.parse (/www/wwwroot/lease_house/node_modules/formidable/lib/incoming_form.js:112:8)
+      at /www/wwwroot/lease_house/node_modules/koa-body/index.js:209:10
+      at new Promise (<anonymous>)
+      at formy (/www/wwwroot/lease_house/node_modules/koa-body/index.js:174:10)
+      at /www/wwwroot/lease_house/node_modules/koa-body/index.js:101:25
+      at dispatch (/www/wwwroot/lease_house/node_modules/koa-compose/index.js:42:32)
+      at /www/wwwroot/lease_house/node_modules/koa-compose/index.js:34:12
+      at Application.handleRequest (/www/wwwroot/lease_house/node_modules/koa/lib/application.js:166:12)
+      at Server.handleRequest (/www/wwwroot/lease_house/node_modules/koa/lib/application.js:148:19)
+      at Server.emit (events.js:310:20)
+      at Server.<anonymous> (/www/server/nvm/versions/node/v12.16.3/lib/node_modules/pm2/node_modules/@pm2/io/build/main/metrics/httpMetrics.js:166:33)
+      at parserOnIncoming (_http_server.js:786:12)
+      at HTTPParser.parserOnHeadersComplete (_http_common.js:119:17)
+2020-05-31 17:01:44: 
+2020-05-31 17:01:44: server error:  Error: bad content-type header, no multipart boundary
+    at IncomingForm._parseContentType (/www/wwwroot/lease_house/node_modules/formidable/lib/incoming_form.js:279:19)
+    at IncomingForm.writeHeaders (/www/wwwroot/lease_house/node_modules/formidable/lib/incoming_form.js:144:8)
+    at IncomingForm.parse (/www/wwwroot/lease_house/node_modules/formidable/lib/incoming_form.js:112:8)
+    at /www/wwwroot/lease_house/node_modules/koa-body/index.js:209:10
+    at new Promise (<anonymous>)
+    at formy (/www/wwwroot/lease_house/node_modules/koa-body/index.js:174:10)
+    at /www/wwwroot/lease_house/node_modules/koa-body/index.js:101:25
+    at dispatch (/www/wwwroot/lease_house/node_modules/koa-compose/index.js:42:32)
+    at /www/wwwroot/lease_house/node_modules/koa-compose/index.js:34:12
+    at Application.handleRequest (/www/wwwroot/lease_house/node_modules/koa/lib/application.js:166:12)
+    at Server.handleRequest (/www/wwwroot/lease_house/node_modules/koa/lib/application.js:148:19)
+    at Server.emit (events.js:310:20)
+    at Server.<anonymous> (/www/server/nvm/versions/node/v12.16.3/lib/node_modules/pm2/node_modules/@pm2/io/build/main/metrics/httpMetrics.js:166:33)
+    at parserOnIncoming (_http_server.js:786:12)
+    at HTTPParser.parserOnHeadersComplete (_http_common.js:119:17) {
+  request: {
+    method: 'POST',
+    url: '/api/house/new?ownerId=1',
+    header: {
+      accept: 'application/json, text/plain, */*',
+      'content-type': 'multipart/form-data',
+      'content-length': '178',
+      host: '101.200.134.15:8000',
+      connection: 'Keep-Alive',
+      'accept-encoding': 'gzip',
+      'user-agent': 'okhttp/3.14.1'
+    }
+  },
+  response: {
+    status: 404,
+    message: 'Not Found',
+    header: [Object: null prototype] {}
+  },
+  app: { subdomainOffset: 2, proxy: false, env: 'development' },
+  originalUrl: '/api/house/new?ownerId=1',
+  req: '<original node req>',
+  res: '<original node res>',
+  socket: '<original node socket>'
+}
+2020-05-31 17:02:46: 
+2020-05-31 17:02:46:   Error: bad content-type header, no multipart boundary
+      at IncomingForm._parseContentType (/www/wwwroot/lease_house/node_modules/formidable/lib/incoming_form.js:279:19)
+      at IncomingForm.writeHeaders (/www/wwwroot/lease_house/node_modules/formidable/lib/incoming_form.js:144:8)
+      at IncomingForm.parse (/www/wwwroot/lease_house/node_modules/formidable/lib/incoming_form.js:112:8)
+      at /www/wwwroot/lease_house/node_modules/koa-body/index.js:209:10
+      at new Promise (<anonymous>)
+      at formy (/www/wwwroot/lease_house/node_modules/koa-body/index.js:174:10)
+      at /www/wwwroot/lease_house/node_modules/koa-body/index.js:101:25
+      at dispatch (/www/wwwroot/lease_house/node_modules/koa-compose/index.js:42:32)
+      at /www/wwwroot/lease_house/node_modules/koa-compose/index.js:34:12
+      at Application.handleRequest (/www/wwwroot/lease_house/node_modules/koa/lib/application.js:166:12)
+      at Server.handleRequest (/www/wwwroot/lease_house/node_modules/koa/lib/application.js:148:19)
+      at Server.emit (events.js:310:20)
+      at Server.<anonymous> (/www/server/nvm/versions/node/v12.16.3/lib/node_modules/pm2/node_modules/@pm2/io/build/main/metrics/httpMetrics.js:166:33)
+      at parserOnIncoming (_http_server.js:786:12)
+      at HTTPParser.parserOnHeadersComplete (_http_common.js:119:17)
+2020-05-31 17:02:46: 
+2020-05-31 17:02:46: server error:  Error: bad content-type header, no multipart boundary
+    at IncomingForm._parseContentType (/www/wwwroot/lease_house/node_modules/formidable/lib/incoming_form.js:279:19)
+    at IncomingForm.writeHeaders (/www/wwwroot/lease_house/node_modules/formidable/lib/incoming_form.js:144:8)
+    at IncomingForm.parse (/www/wwwroot/lease_house/node_modules/formidable/lib/incoming_form.js:112:8)
+    at /www/wwwroot/lease_house/node_modules/koa-body/index.js:209:10
+    at new Promise (<anonymous>)
+    at formy (/www/wwwroot/lease_house/node_modules/koa-body/index.js:174:10)
+    at /www/wwwroot/lease_house/node_modules/koa-body/index.js:101:25
+    at dispatch (/www/wwwroot/lease_house/node_modules/koa-compose/index.js:42:32)
+    at /www/wwwroot/lease_house/node_modules/koa-compose/index.js:34:12
+    at Application.handleRequest (/www/wwwroot/lease_house/node_modules/koa/lib/application.js:166:12)
+    at Server.handleRequest (/www/wwwroot/lease_house/node_modules/koa/lib/application.js:148:19)
+    at Server.emit (events.js:310:20)
+    at Server.<anonymous> (/www/server/nvm/versions/node/v12.16.3/lib/node_modules/pm2/node_modules/@pm2/io/build/main/metrics/httpMetrics.js:166:33)
+    at parserOnIncoming (_http_server.js:786:12)
+    at HTTPParser.parserOnHeadersComplete (_http_common.js:119:17) {
+  request: {
+    method: 'POST',
+    url: '/api/house/new?ownerId=1',
+    header: {
+      accept: 'application/json, text/plain, */*',
+      'content-type': 'multipart/form-data',
+      'content-length': '177',
+      host: '101.200.134.15:8000',
+      connection: 'Keep-Alive',
+      'accept-encoding': 'gzip',
+      'user-agent': 'okhttp/3.14.1'
+    }
+  },
+  response: {
+    status: 404,
+    message: 'Not Found',
+    header: [Object: null prototype] {}
+  },
+  app: { subdomainOffset: 2, proxy: false, env: 'development' },
+  originalUrl: '/api/house/new?ownerId=1',
+  req: '<original node req>',
+  res: '<original node res>',
+  socket: '<original node socket>'
+}
+2020-05-31 17:22:07: 
+2020-05-31 17:22:07:   Error: bad content-type header, no multipart boundary
+      at IncomingForm._parseContentType (/www/wwwroot/lease_house/node_modules/formidable/lib/incoming_form.js:279:19)
+      at IncomingForm.writeHeaders (/www/wwwroot/lease_house/node_modules/formidable/lib/incoming_form.js:144:8)
+      at IncomingForm.parse (/www/wwwroot/lease_house/node_modules/formidable/lib/incoming_form.js:112:8)
+      at /www/wwwroot/lease_house/node_modules/koa-body/index.js:209:10
+      at new Promise (<anonymous>)
+      at formy (/www/wwwroot/lease_house/node_modules/koa-body/index.js:174:10)
+      at /www/wwwroot/lease_house/node_modules/koa-body/index.js:101:25
+      at dispatch (/www/wwwroot/lease_house/node_modules/koa-compose/index.js:42:32)
+      at /www/wwwroot/lease_house/node_modules/koa-compose/index.js:34:12
+      at Application.handleRequest (/www/wwwroot/lease_house/node_modules/koa/lib/application.js:166:12)
+      at Server.handleRequest (/www/wwwroot/lease_house/node_modules/koa/lib/application.js:148:19)
+      at Server.emit (events.js:310:20)
+      at Server.<anonymous> (/www/server/nvm/versions/node/v12.16.3/lib/node_modules/pm2/node_modules/@pm2/io/build/main/metrics/httpMetrics.js:166:33)
+      at parserOnIncoming (_http_server.js:786:12)
+      at HTTPParser.parserOnHeadersComplete (_http_common.js:119:17)
+2020-05-31 17:22:07: 
+2020-05-31 17:22:07: server error:  Error: bad content-type header, no multipart boundary
+    at IncomingForm._parseContentType (/www/wwwroot/lease_house/node_modules/formidable/lib/incoming_form.js:279:19)
+    at IncomingForm.writeHeaders (/www/wwwroot/lease_house/node_modules/formidable/lib/incoming_form.js:144:8)
+    at IncomingForm.parse (/www/wwwroot/lease_house/node_modules/formidable/lib/incoming_form.js:112:8)
+    at /www/wwwroot/lease_house/node_modules/koa-body/index.js:209:10
+    at new Promise (<anonymous>)
+    at formy (/www/wwwroot/lease_house/node_modules/koa-body/index.js:174:10)
+    at /www/wwwroot/lease_house/node_modules/koa-body/index.js:101:25
+    at dispatch (/www/wwwroot/lease_house/node_modules/koa-compose/index.js:42:32)
+    at /www/wwwroot/lease_house/node_modules/koa-compose/index.js:34:12
+    at Application.handleRequest (/www/wwwroot/lease_house/node_modules/koa/lib/application.js:166:12)
+    at Server.handleRequest (/www/wwwroot/lease_house/node_modules/koa/lib/application.js:148:19)
+    at Server.emit (events.js:310:20)
+    at Server.<anonymous> (/www/server/nvm/versions/node/v12.16.3/lib/node_modules/pm2/node_modules/@pm2/io/build/main/metrics/httpMetrics.js:166:33)
+    at parserOnIncoming (_http_server.js:786:12)
+    at HTTPParser.parserOnHeadersComplete (_http_common.js:119:17) {
+  request: {
+    method: 'POST',
+    url: '/api/house/new?ownerId=1',
+    header: {
+      accept: 'application/json, text/plain, */*',
+      'content-type': 'multipart/form-data',
+      'content-length': '654',
+      host: '101.200.134.15:8000',
+      connection: 'Keep-Alive',
+      'accept-encoding': 'gzip',
+      'user-agent': 'okhttp/3.14.1'
+    }
+  },
+  response: {
+    status: 404,
+    message: 'Not Found',
+    header: [Object: null prototype] {}
+  },
+  app: { subdomainOffset: 2, proxy: false, env: 'development' },
+  originalUrl: '/api/house/new?ownerId=1',
+  req: '<original node req>',
+  res: '<original node res>',
+  socket: '<original node socket>'
+}
+2020-05-31 17:42:53: 
+2020-05-31 17:42:53:   Error: bad content-type header, no multipart boundary
+      at IncomingForm._parseContentType (/www/wwwroot/lease_house/node_modules/formidable/lib/incoming_form.js:279:19)
+      at IncomingForm.writeHeaders (/www/wwwroot/lease_house/node_modules/formidable/lib/incoming_form.js:144:8)
+      at IncomingForm.parse (/www/wwwroot/lease_house/node_modules/formidable/lib/incoming_form.js:112:8)
+      at /www/wwwroot/lease_house/node_modules/koa-body/index.js:209:10
+      at new Promise (<anonymous>)
+      at formy (/www/wwwroot/lease_house/node_modules/koa-body/index.js:174:10)
+      at /www/wwwroot/lease_house/node_modules/koa-body/index.js:101:25
+      at dispatch (/www/wwwroot/lease_house/node_modules/koa-compose/index.js:42:32)
+      at /www/wwwroot/lease_house/node_modules/koa-compose/index.js:34:12
+      at Application.handleRequest (/www/wwwroot/lease_house/node_modules/koa/lib/application.js:166:12)
+      at Server.handleRequest (/www/wwwroot/lease_house/node_modules/koa/lib/application.js:148:19)
+      at Server.emit (events.js:310:20)
+      at Server.<anonymous> (/www/server/nvm/versions/node/v12.16.3/lib/node_modules/pm2/node_modules/@pm2/io/build/main/metrics/httpMetrics.js:166:33)
+      at parserOnIncoming (_http_server.js:786:12)
+      at HTTPParser.parserOnHeadersComplete (_http_common.js:119:17)
+2020-05-31 17:42:53: 
+2020-05-31 17:42:53: server error:  Error: bad content-type header, no multipart boundary
+    at IncomingForm._parseContentType (/www/wwwroot/lease_house/node_modules/formidable/lib/incoming_form.js:279:19)
+    at IncomingForm.writeHeaders (/www/wwwroot/lease_house/node_modules/formidable/lib/incoming_form.js:144:8)
+    at IncomingForm.parse (/www/wwwroot/lease_house/node_modules/formidable/lib/incoming_form.js:112:8)
+    at /www/wwwroot/lease_house/node_modules/koa-body/index.js:209:10
+    at new Promise (<anonymous>)
+    at formy (/www/wwwroot/lease_house/node_modules/koa-body/index.js:174:10)
+    at /www/wwwroot/lease_house/node_modules/koa-body/index.js:101:25
+    at dispatch (/www/wwwroot/lease_house/node_modules/koa-compose/index.js:42:32)
+    at /www/wwwroot/lease_house/node_modules/koa-compose/index.js:34:12
+    at Application.handleRequest (/www/wwwroot/lease_house/node_modules/koa/lib/application.js:166:12)
+    at Server.handleRequest (/www/wwwroot/lease_house/node_modules/koa/lib/application.js:148:19)
+    at Server.emit (events.js:310:20)
+    at Server.<anonymous> (/www/server/nvm/versions/node/v12.16.3/lib/node_modules/pm2/node_modules/@pm2/io/build/main/metrics/httpMetrics.js:166:33)
+    at parserOnIncoming (_http_server.js:786:12)
+    at HTTPParser.parserOnHeadersComplete (_http_common.js:119:17) {
+  request: {
+    method: 'POST',
+    url: '/api/house/new?ownerId=1',
+    header: {
+      accept: 'application/json, text/plain, */*',
+      'content-type': 'multipart/form-data',
+      'content-length': '154',
+      host: '101.200.134.15:8000',
+      connection: 'Keep-Alive',
+      'accept-encoding': 'gzip',
+      'user-agent': 'okhttp/3.14.1'
+    }
+  },
+  response: {
+    status: 404,
+    message: 'Not Found',
+    header: [Object: null prototype] {}
+  },
+  app: { subdomainOffset: 2, proxy: false, env: 'development' },
+  originalUrl: '/api/house/new?ownerId=1',
+  req: '<original node req>',
+  res: '<original node res>',
+  socket: '<original node socket>'
+}
+2020-05-31 17:50:55: 
+2020-05-31 17:50:55:   TypeError: files is not iterable
+      at /www/wwwroot/lease_house/app.js:144:22
+      at processTicksAndRejections (internal/process/task_queues.js:97:5)
+      at async cors (/www/wwwroot/lease_house/node_modules/koa2-cors/dist/index.js:91:9)
+      at async /www/wwwroot/lease_house/app.js:67:5
+      at async serve (/www/wwwroot/lease_house/node_modules/koa-static/index.js:53:9)
+      at async logger (/www/wwwroot/lease_house/node_modules/koa-logger/index.js:67:7)
+      at async bodyParser (/www/wwwroot/lease_house/node_modules/koa-bodyparser/index.js:82:48)
+2020-05-31 17:50:55: 
+2020-05-31 17:50:55: server error:  TypeError: files is not iterable
+    at /www/wwwroot/lease_house/app.js:144:22
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async cors (/www/wwwroot/lease_house/node_modules/koa2-cors/dist/index.js:91:9)
+    at async /www/wwwroot/lease_house/app.js:67:5
+    at async serve (/www/wwwroot/lease_house/node_modules/koa-static/index.js:53:9)
+    at async logger (/www/wwwroot/lease_house/node_modules/koa-logger/index.js:67:7)
+    at async bodyParser (/www/wwwroot/lease_house/node_modules/koa-bodyparser/index.js:82:48) {
+  request: {
+    method: 'POST',
+    url: '/api/house/new?ownerId=1',
+    header: {
+      accept: 'application/json, text/plain, */*',
+      'content-type': 'multipart/form-data; boundary=f313daa3-ac49-40d0-9b5d-65a041d95bd5',
+      'content-length': '3312',
+      host: '101.200.134.15:8000',
+      connection: 'Keep-Alive',
+      'accept-encoding': 'gzip',
+      'user-agent': 'okhttp/3.14.1'
+    }
+  },
+  response: {
+    status: 404,
+    message: 'Not Found',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': '*',
+      'access-control-expose-headers': 'WWW-Authenticate,Server-Authorization'
+    }
+  },
+  app: { subdomainOffset: 2, proxy: false, env: 'development' },
+  originalUrl: '/api/house/new?ownerId=1',
+  req: '<original node req>',
+  res: '<original node res>',
+  socket: '<original node socket>'
+}
+2020-05-31 18:04:15: 
+2020-05-31 18:04:15:   TypeError: files is not iterable
+      at /www/wwwroot/lease_house/app.js:144:22
+      at processTicksAndRejections (internal/process/task_queues.js:97:5)
+      at async cors (/www/wwwroot/lease_house/node_modules/koa2-cors/dist/index.js:91:9)
+      at async /www/wwwroot/lease_house/app.js:67:5
+      at async serve (/www/wwwroot/lease_house/node_modules/koa-static/index.js:53:9)
+      at async logger (/www/wwwroot/lease_house/node_modules/koa-logger/index.js:67:7)
+      at async bodyParser (/www/wwwroot/lease_house/node_modules/koa-bodyparser/index.js:82:48)
+2020-05-31 18:04:15: 
+2020-05-31 18:04:15: server error:  TypeError: files is not iterable
+    at /www/wwwroot/lease_house/app.js:144:22
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async cors (/www/wwwroot/lease_house/node_modules/koa2-cors/dist/index.js:91:9)
+    at async /www/wwwroot/lease_house/app.js:67:5
+    at async serve (/www/wwwroot/lease_house/node_modules/koa-static/index.js:53:9)
+    at async logger (/www/wwwroot/lease_house/node_modules/koa-logger/index.js:67:7)
+    at async bodyParser (/www/wwwroot/lease_house/node_modules/koa-bodyparser/index.js:82:48) {
+  request: {
+    method: 'POST',
+    url: '/api/house/new?ownerId=1',
+    header: {
+      accept: 'application/json, text/plain, */*',
+      'content-type': 'multipart/form-data; boundary=bfb18de6-d598-4b38-8de1-2bbec7cabeea',
+      'content-length': '1149',
+      host: '101.200.134.15:8000',
+      connection: 'Keep-Alive',
+      'accept-encoding': 'gzip',
+      'user-agent': 'okhttp/3.14.1'
+    }
+  },
+  response: {
+    status: 404,
+    message: 'Not Found',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': '*',
+      'access-control-expose-headers': 'WWW-Authenticate,Server-Authorization'
+    }
+  },
+  app: { subdomainOffset: 2, proxy: false, env: 'development' },
+  originalUrl: '/api/house/new?ownerId=1',
+  req: '<original node req>',
+  res: '<original node res>',
+  socket: '<original node socket>'
+}
+2020-05-31 18:04:16: 
+2020-05-31 18:04:16:   TypeError: files is not iterable
+      at /www/wwwroot/lease_house/app.js:144:22
+      at processTicksAndRejections (internal/process/task_queues.js:97:5)
+      at async cors (/www/wwwroot/lease_house/node_modules/koa2-cors/dist/index.js:91:9)
+      at async /www/wwwroot/lease_house/app.js:67:5
+      at async serve (/www/wwwroot/lease_house/node_modules/koa-static/index.js:53:9)
+      at async logger (/www/wwwroot/lease_house/node_modules/koa-logger/index.js:67:7)
+      at async bodyParser (/www/wwwroot/lease_house/node_modules/koa-bodyparser/index.js:82:48)
+2020-05-31 18:04:16: 
+2020-05-31 18:04:16: server error:  TypeError: files is not iterable
+    at /www/wwwroot/lease_house/app.js:144:22
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async cors (/www/wwwroot/lease_house/node_modules/koa2-cors/dist/index.js:91:9)
+    at async /www/wwwroot/lease_house/app.js:67:5
+    at async serve (/www/wwwroot/lease_house/node_modules/koa-static/index.js:53:9)
+    at async logger (/www/wwwroot/lease_house/node_modules/koa-logger/index.js:67:7)
+    at async bodyParser (/www/wwwroot/lease_house/node_modules/koa-bodyparser/index.js:82:48) {
+  request: {
+    method: 'POST',
+    url: '/api/house/new?ownerId=1',
+    header: {
+      accept: 'application/json, text/plain, */*',
+      'content-type': 'multipart/form-data; boundary=ab1d8458-d476-40a2-bbf1-da498051c60a',
+      'content-length': '1149',
+      host: '101.200.134.15:8000',
+      connection: 'Keep-Alive',
+      'accept-encoding': 'gzip',
+      'user-agent': 'okhttp/3.14.1'
+    }
+  },
+  response: {
+    status: 404,
+    message: 'Not Found',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': '*',
+      'access-control-expose-headers': 'WWW-Authenticate,Server-Authorization'
+    }
+  },
+  app: { subdomainOffset: 2, proxy: false, env: 'development' },
+  originalUrl: '/api/house/new?ownerId=1',
+  req: '<original node req>',
+  res: '<original node res>',
+  socket: '<original node socket>'
+}
+2020-05-31 18:04:16: 
+2020-05-31 18:04:16:   TypeError: files is not iterable
+      at /www/wwwroot/lease_house/app.js:144:22
+      at processTicksAndRejections (internal/process/task_queues.js:97:5)
+      at async cors (/www/wwwroot/lease_house/node_modules/koa2-cors/dist/index.js:91:9)
+      at async /www/wwwroot/lease_house/app.js:67:5
+      at async serve (/www/wwwroot/lease_house/node_modules/koa-static/index.js:53:9)
+      at async logger (/www/wwwroot/lease_house/node_modules/koa-logger/index.js:67:7)
+      at async bodyParser (/www/wwwroot/lease_house/node_modules/koa-bodyparser/index.js:82:48)
+2020-05-31 18:04:16: 
+2020-05-31 18:04:16: server error:  TypeError: files is not iterable
+    at /www/wwwroot/lease_house/app.js:144:22
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async cors (/www/wwwroot/lease_house/node_modules/koa2-cors/dist/index.js:91:9)
+    at async /www/wwwroot/lease_house/app.js:67:5
+    at async serve (/www/wwwroot/lease_house/node_modules/koa-static/index.js:53:9)
+    at async logger (/www/wwwroot/lease_house/node_modules/koa-logger/index.js:67:7)
+    at async bodyParser (/www/wwwroot/lease_house/node_modules/koa-bodyparser/index.js:82:48) {
+  request: {
+    method: 'POST',
+    url: '/api/house/new?ownerId=1',
+    header: {
+      accept: 'application/json, text/plain, */*',
+      'content-type': 'multipart/form-data; boundary=403c8ca1-4a05-446a-a71a-0a50fcd937ac',
+      'content-length': '1149',
+      host: '101.200.134.15:8000',
+      connection: 'Keep-Alive',
+      'accept-encoding': 'gzip',
+      'user-agent': 'okhttp/3.14.1'
+    }
+  },
+  response: {
+    status: 404,
+    message: 'Not Found',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': '*',
+      'access-control-expose-headers': 'WWW-Authenticate,Server-Authorization'
+    }
+  },
+  app: { subdomainOffset: 2, proxy: false, env: 'development' },
+  originalUrl: '/api/house/new?ownerId=1',
+  req: '<original node req>',
+  res: '<original node res>',
+  socket: '<original node socket>'
+}
+2020-05-31 18:04:38: 
+2020-05-31 18:04:38:   TypeError: files is not iterable
+      at /www/wwwroot/lease_house/app.js:144:22
+      at processTicksAndRejections (internal/process/task_queues.js:97:5)
+      at async cors (/www/wwwroot/lease_house/node_modules/koa2-cors/dist/index.js:91:9)
+      at async /www/wwwroot/lease_house/app.js:67:5
+      at async serve (/www/wwwroot/lease_house/node_modules/koa-static/index.js:53:9)
+      at async logger (/www/wwwroot/lease_house/node_modules/koa-logger/index.js:67:7)
+      at async bodyParser (/www/wwwroot/lease_house/node_modules/koa-bodyparser/index.js:82:48)
+2020-05-31 18:04:38: 
+2020-05-31 18:04:38: server error:  TypeError: files is not iterable
+    at /www/wwwroot/lease_house/app.js:144:22
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async cors (/www/wwwroot/lease_house/node_modules/koa2-cors/dist/index.js:91:9)
+    at async /www/wwwroot/lease_house/app.js:67:5
+    at async serve (/www/wwwroot/lease_house/node_modules/koa-static/index.js:53:9)
+    at async logger (/www/wwwroot/lease_house/node_modules/koa-logger/index.js:67:7)
+    at async bodyParser (/www/wwwroot/lease_house/node_modules/koa-bodyparser/index.js:82:48) {
+  request: {
+    method: 'POST',
+    url: '/api/house/new?ownerId=1',
+    header: {
+      accept: 'application/json, text/plain, */*',
+      'content-type': 'multipart/form-data; boundary=1ae60b7a-9769-4be1-8b06-e423a7c9e652',
+      'content-length': '1149',
+      host: '101.200.134.15:8000',
+      connection: 'Keep-Alive',
+      'accept-encoding': 'gzip',
+      'user-agent': 'okhttp/3.14.1'
+    }
+  },
+  response: {
+    status: 404,
+    message: 'Not Found',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': '*',
+      'access-control-expose-headers': 'WWW-Authenticate,Server-Authorization'
+    }
+  },
+  app: { subdomainOffset: 2, proxy: false, env: 'development' },
+  originalUrl: '/api/house/new?ownerId=1',
+  req: '<original node req>',
+  res: '<original node res>',
+  socket: '<original node socket>'
+}
+2020-05-31 18:07:42: 
+2020-05-31 18:07:42:   TypeError: files is not iterable
+      at /www/wwwroot/lease_house/app.js:144:22
+      at processTicksAndRejections (internal/process/task_queues.js:97:5)
+      at async cors (/www/wwwroot/lease_house/node_modules/koa2-cors/dist/index.js:91:9)
+      at async /www/wwwroot/lease_house/app.js:67:5
+      at async serve (/www/wwwroot/lease_house/node_modules/koa-static/index.js:53:9)
+      at async logger (/www/wwwroot/lease_house/node_modules/koa-logger/index.js:67:7)
+      at async bodyParser (/www/wwwroot/lease_house/node_modules/koa-bodyparser/index.js:82:48)
+2020-05-31 18:07:42: 
+2020-05-31 18:07:42: server error:  TypeError: files is not iterable
+    at /www/wwwroot/lease_house/app.js:144:22
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async cors (/www/wwwroot/lease_house/node_modules/koa2-cors/dist/index.js:91:9)
+    at async /www/wwwroot/lease_house/app.js:67:5
+    at async serve (/www/wwwroot/lease_house/node_modules/koa-static/index.js:53:9)
+    at async logger (/www/wwwroot/lease_house/node_modules/koa-logger/index.js:67:7)
+    at async bodyParser (/www/wwwroot/lease_house/node_modules/koa-bodyparser/index.js:82:48) {
+  request: {
+    method: 'POST',
+    url: '/api/house/new?ownerId=1',
+    header: {
+      accept: 'application/json, text/plain, */*',
+      'content-type': 'multipart/form-data; boundary=f06841a6-74fb-405d-aec5-abc9a1febdad',
+      'content-length': '1149',
+      host: '101.200.134.15:8000',
+      connection: 'Keep-Alive',
+      'accept-encoding': 'gzip',
+      'user-agent': 'okhttp/3.14.1'
+    }
+  },
+  response: {
+    status: 404,
+    message: 'Not Found',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': '*',
+      'access-control-expose-headers': 'WWW-Authenticate,Server-Authorization'
+    }
+  },
+  app: { subdomainOffset: 2, proxy: false, env: 'development' },
+  originalUrl: '/api/house/new?ownerId=1',
+  req: '<original node req>',
+  res: '<original node res>',
+  socket: '<original node socket>'
+}
+2020-05-31 18:07:43: 
+2020-05-31 18:07:43:   TypeError: files is not iterable
+      at /www/wwwroot/lease_house/app.js:144:22
+      at processTicksAndRejections (internal/process/task_queues.js:97:5)
+      at async cors (/www/wwwroot/lease_house/node_modules/koa2-cors/dist/index.js:91:9)
+      at async /www/wwwroot/lease_house/app.js:67:5
+      at async serve (/www/wwwroot/lease_house/node_modules/koa-static/index.js:53:9)
+      at async logger (/www/wwwroot/lease_house/node_modules/koa-logger/index.js:67:7)
+      at async bodyParser (/www/wwwroot/lease_house/node_modules/koa-bodyparser/index.js:82:48)
+2020-05-31 18:07:43: 
+2020-05-31 18:07:43: server error:  TypeError: files is not iterable
+    at /www/wwwroot/lease_house/app.js:144:22
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async cors (/www/wwwroot/lease_house/node_modules/koa2-cors/dist/index.js:91:9)
+    at async /www/wwwroot/lease_house/app.js:67:5
+    at async serve (/www/wwwroot/lease_house/node_modules/koa-static/index.js:53:9)
+    at async logger (/www/wwwroot/lease_house/node_modules/koa-logger/index.js:67:7)
+    at async bodyParser (/www/wwwroot/lease_house/node_modules/koa-bodyparser/index.js:82:48) {
+  request: {
+    method: 'POST',
+    url: '/api/house/new?ownerId=1',
+    header: {
+      accept: 'application/json, text/plain, */*',
+      'content-type': 'multipart/form-data; boundary=4d2635bc-cb97-4a4c-bf4c-2b9cc1d4a969',
+      'content-length': '1149',
+      host: '101.200.134.15:8000',
+      connection: 'Keep-Alive',
+      'accept-encoding': 'gzip',
+      'user-agent': 'okhttp/3.14.1'
+    }
+  },
+  response: {
+    status: 404,
+    message: 'Not Found',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': '*',
+      'access-control-expose-headers': 'WWW-Authenticate,Server-Authorization'
+    }
+  },
+  app: { subdomainOffset: 2, proxy: false, env: 'development' },
+  originalUrl: '/api/house/new?ownerId=1',
+  req: '<original node req>',
+  res: '<original node res>',
+  socket: '<original node socket>'
+}
+2020-05-31 18:07:43: 
+2020-05-31 18:07:43:   TypeError: files is not iterable
+      at /www/wwwroot/lease_house/app.js:144:22
+      at processTicksAndRejections (internal/process/task_queues.js:97:5)
+      at async cors (/www/wwwroot/lease_house/node_modules/koa2-cors/dist/index.js:91:9)
+      at async /www/wwwroot/lease_house/app.js:67:5
+      at async serve (/www/wwwroot/lease_house/node_modules/koa-static/index.js:53:9)
+      at async logger (/www/wwwroot/lease_house/node_modules/koa-logger/index.js:67:7)
+      at async bodyParser (/www/wwwroot/lease_house/node_modules/koa-bodyparser/index.js:82:48)
+2020-05-31 18:07:43: 
+2020-05-31 18:07:43: server error:  TypeError: files is not iterable
+    at /www/wwwroot/lease_house/app.js:144:22
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async cors (/www/wwwroot/lease_house/node_modules/koa2-cors/dist/index.js:91:9)
+    at async /www/wwwroot/lease_house/app.js:67:5
+    at async serve (/www/wwwroot/lease_house/node_modules/koa-static/index.js:53:9)
+    at async logger (/www/wwwroot/lease_house/node_modules/koa-logger/index.js:67:7)
+    at async bodyParser (/www/wwwroot/lease_house/node_modules/koa-bodyparser/index.js:82:48) {
+  request: {
+    method: 'POST',
+    url: '/api/house/new?ownerId=1',
+    header: {
+      accept: 'application/json, text/plain, */*',
+      'content-type': 'multipart/form-data; boundary=42184fb1-8b61-401f-8ca3-37d983430b0a',
+      'content-length': '1149',
+      host: '101.200.134.15:8000',
+      connection: 'Keep-Alive',
+      'accept-encoding': 'gzip',
+      'user-agent': 'okhttp/3.14.1'
+    }
+  },
+  response: {
+    status: 404,
+    message: 'Not Found',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': '*',
+      'access-control-expose-headers': 'WWW-Authenticate,Server-Authorization'
+    }
+  },
+  app: { subdomainOffset: 2, proxy: false, env: 'development' },
+  originalUrl: '/api/house/new?ownerId=1',
+  req: '<original node req>',
+  res: '<original node res>',
+  socket: '<original node socket>'
+}
+2020-06-01 17:30:20: 
+2020-06-01 17:30:20:   TypeError: files is not iterable
+      at /www/wwwroot/lease_house/app.js:144:22
+      at processTicksAndRejections (internal/process/task_queues.js:97:5)
+      at async cors (/www/wwwroot/lease_house/node_modules/koa2-cors/dist/index.js:91:9)
+      at async /www/wwwroot/lease_house/app.js:67:5
+      at async serve (/www/wwwroot/lease_house/node_modules/koa-static/index.js:53:9)
+      at async logger (/www/wwwroot/lease_house/node_modules/koa-logger/index.js:67:7)
+      at async bodyParser (/www/wwwroot/lease_house/node_modules/koa-bodyparser/index.js:82:48)
+2020-06-01 17:30:20: 
+2020-06-01 17:30:20: server error:  TypeError: files is not iterable
+    at /www/wwwroot/lease_house/app.js:144:22
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async cors (/www/wwwroot/lease_house/node_modules/koa2-cors/dist/index.js:91:9)
+    at async /www/wwwroot/lease_house/app.js:67:5
+    at async serve (/www/wwwroot/lease_house/node_modules/koa-static/index.js:53:9)
+    at async logger (/www/wwwroot/lease_house/node_modules/koa-logger/index.js:67:7)
+    at async bodyParser (/www/wwwroot/lease_house/node_modules/koa-bodyparser/index.js:82:48) {
+  request: {
+    method: 'POST',
+    url: '/api/house/new?ownerId=1',
+    header: {
+      accept: 'application/json, text/plain, */*',
+      'content-type': 'multipart/form-data; boundary=5b8c5adf-2aa1-499e-a97a-2421eb41a6d3',
+      'content-length': '1166',
+      host: '101.200.134.15:8000',
+      connection: 'Keep-Alive',
+      'accept-encoding': 'gzip',
+      'user-agent': 'okhttp/3.12.1'
+    }
+  },
+  response: {
+    status: 404,
+    message: 'Not Found',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': '*',
+      'access-control-expose-headers': 'WWW-Authenticate,Server-Authorization'
+    }
+  },
+  app: { subdomainOffset: 2, proxy: false, env: 'development' },
+  originalUrl: '/api/house/new?ownerId=1',
+  req: '<original node req>',
+  res: '<original node res>',
+  socket: '<original node socket>'
+}
+Error: Connection lost: The server closed the connection.
+    at Protocol.end (/www/wwwroot/lease_house/node_modules/mysql/lib/protocol/Protocol.js:112:13)
+    at Socket.<anonymous> (/www/wwwroot/lease_house/node_modules/mysql/lib/Connection.js:94:28)
+    at Socket.<anonymous> (/www/wwwroot/lease_house/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (events.js:322:22)
+    at endReadableNT (_stream_readable.js:1187:12)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21)
+Error: Connection lost: The server closed the connection.
+    at Protocol.end (/www/wwwroot/lease_house/node_modules/mysql/lib/protocol/Protocol.js:112:13)
+    at Socket.<anonymous> (/www/wwwroot/lease_house/node_modules/mysql/lib/Connection.js:94:28)
+    at Socket.<anonymous> (/www/wwwroot/lease_house/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (events.js:322:22)
+    at endReadableNT (_stream_readable.js:1187:12)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21)
+Error: Connection lost: The server closed the connection.
+    at Protocol.end (/www/wwwroot/lease_house/node_modules/mysql/lib/protocol/Protocol.js:112:13)
+    at Socket.<anonymous> (/www/wwwroot/lease_house/node_modules/mysql/lib/Connection.js:94:28)
+    at Socket.<anonymous> (/www/wwwroot/lease_house/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (events.js:322:22)
+    at endReadableNT (_stream_readable.js:1187:12)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21)
+Error: Connection lost: The server closed the connection.
+    at Protocol.end (/www/wwwroot/lease_house/node_modules/mysql/lib/protocol/Protocol.js:112:13)
+    at Socket.<anonymous> (/www/wwwroot/lease_house/node_modules/mysql/lib/Connection.js:94:28)
+    at Socket.<anonymous> (/www/wwwroot/lease_house/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (events.js:322:22)
+    at endReadableNT (_stream_readable.js:1187:12)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21)
+Error: Connection lost: The server closed the connection.
+    at Protocol.end (/www/wwwroot/lease_house/node_modules/mysql/lib/protocol/Protocol.js:112:13)
+    at Socket.<anonymous> (/www/wwwroot/lease_house/node_modules/mysql/lib/Connection.js:94:28)
+    at Socket.<anonymous> (/www/wwwroot/lease_house/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (events.js:322:22)
+    at endReadableNT (_stream_readable.js:1187:12)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21)
+Error: Connection lost: The server closed the connection.
+    at Protocol.end (/www/wwwroot/lease_house/node_modules/mysql/lib/protocol/Protocol.js:112:13)
+    at Socket.<anonymous> (/www/wwwroot/lease_house/node_modules/mysql/lib/Connection.js:94:28)
+    at Socket.<anonymous> (/www/wwwroot/lease_house/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (events.js:322:22)
+    at endReadableNT (_stream_readable.js:1187:12)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21)
+Error: Connection lost: The server closed the connection.
+    at Protocol.end (/www/wwwroot/lease_house/node_modules/mysql/lib/protocol/Protocol.js:112:13)
+    at Socket.<anonymous> (/www/wwwroot/lease_house/node_modules/mysql/lib/Connection.js:94:28)
+    at Socket.<anonymous> (/www/wwwroot/lease_house/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (events.js:322:22)
+    at endReadableNT (_stream_readable.js:1187:12)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21)
+Error: Connection lost: The server closed the connection.
+    at Protocol.end (/www/wwwroot/lease_house/node_modules/mysql/lib/protocol/Protocol.js:112:13)
+    at Socket.<anonymous> (/www/wwwroot/lease_house/node_modules/mysql/lib/Connection.js:94:28)
+    at Socket.<anonymous> (/www/wwwroot/lease_house/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (events.js:322:22)
+    at endReadableNT (_stream_readable.js:1187:12)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21)
+Error: Connection lost: The server closed the connection.
+    at Protocol.end (/www/wwwroot/lease_house/node_modules/mysql/lib/protocol/Protocol.js:112:13)
+    at Socket.<anonymous> (/www/wwwroot/lease_house/node_modules/mysql/lib/Connection.js:94:28)
+    at Socket.<anonymous> (/www/wwwroot/lease_house/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (events.js:322:22)
+    at endReadableNT (_stream_readable.js:1187:12)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21)
+Error: Connection lost: The server closed the connection.
+    at Protocol.end (/www/wwwroot/lease_house/node_modules/mysql/lib/protocol/Protocol.js:112:13)
+    at Socket.<anonymous> (/www/wwwroot/lease_house/node_modules/mysql/lib/Connection.js:94:28)
+    at Socket.<anonymous> (/www/wwwroot/lease_house/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (events.js:322:22)
+    at endReadableNT (_stream_readable.js:1187:12)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21)
+Error: Connection lost: The server closed the connection.
+    at Protocol.end (/www/wwwroot/lease_house/node_modules/mysql/lib/protocol/Protocol.js:112:13)
+    at Socket.<anonymous> (/www/wwwroot/lease_house/node_modules/mysql/lib/Connection.js:94:28)
+    at Socket.<anonymous> (/www/wwwroot/lease_house/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (events.js:322:22)
+    at endReadableNT (_stream_readable.js:1187:12)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21)
+Error: Connection lost: The server closed the connection.
+    at Protocol.end (/www/wwwroot/lease_house/node_modules/mysql/lib/protocol/Protocol.js:112:13)
+    at Socket.<anonymous> (/www/wwwroot/lease_house/node_modules/mysql/lib/Connection.js:94:28)
+    at Socket.<anonymous> (/www/wwwroot/lease_house/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (events.js:322:22)
+    at endReadableNT (_stream_readable.js:1187:12)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21)
+Error: Connection lost: The server closed the connection.
+    at Protocol.end (/www/wwwroot/lease_house/node_modules/mysql/lib/protocol/Protocol.js:112:13)
+    at Socket.<anonymous> (/www/wwwroot/lease_house/node_modules/mysql/lib/Connection.js:94:28)
+    at Socket.<anonymous> (/www/wwwroot/lease_house/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (events.js:322:22)
+    at endReadableNT (_stream_readable.js:1187:12)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21)
+Error: Connection lost: The server closed the connection.
+    at Protocol.end (/www/wwwroot/lease_house/node_modules/mysql/lib/protocol/Protocol.js:112:13)
+    at Socket.<anonymous> (/www/wwwroot/lease_house/node_modules/mysql/lib/Connection.js:94:28)
+    at Socket.<anonymous> (/www/wwwroot/lease_house/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (events.js:322:22)
+    at endReadableNT (_stream_readable.js:1187:12)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21)
+Error: Connection lost: The server closed the connection.
+    at Protocol.end (/www/wwwroot/lease_house/node_modules/mysql/lib/protocol/Protocol.js:112:13)
+    at Socket.<anonymous> (/www/wwwroot/lease_house/node_modules/mysql/lib/Connection.js:94:28)
+    at Socket.<anonymous> (/www/wwwroot/lease_house/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (events.js:322:22)
+    at endReadableNT (_stream_readable.js:1187:12)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21)
+Error: Connection lost: The server closed the connection.
+    at Protocol.end (/www/wwwroot/lease_house/node_modules/mysql/lib/protocol/Protocol.js:112:13)
+    at Socket.<anonymous> (/www/wwwroot/lease_house/node_modules/mysql/lib/Connection.js:94:28)
+    at Socket.<anonymous> (/www/wwwroot/lease_house/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (events.js:322:22)
+    at endReadableNT (_stream_readable.js:1187:12)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21)
+Error: Connection lost: The server closed the connection.
+    at Protocol.end (/www/wwwroot/lease_house/node_modules/mysql/lib/protocol/Protocol.js:112:13)
+    at Socket.<anonymous> (/www/wwwroot/lease_house/node_modules/mysql/lib/Connection.js:94:28)
+    at Socket.<anonymous> (/www/wwwroot/lease_house/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (events.js:322:22)
+    at endReadableNT (_stream_readable.js:1187:12)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21)
+Error: Connection lost: The server closed the connection.
+    at Protocol.end (/www/wwwroot/lease_house/node_modules/mysql/lib/protocol/Protocol.js:112:13)
+    at Socket.<anonymous> (/www/wwwroot/lease_house/node_modules/mysql/lib/Connection.js:94:28)
+    at Socket.<anonymous> (/www/wwwroot/lease_house/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (events.js:322:22)
+    at endReadableNT (_stream_readable.js:1187:12)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21)
+Error: Connection lost: The server closed the connection.
+    at Protocol.end (/www/wwwroot/lease_house/node_modules/mysql/lib/protocol/Protocol.js:112:13)
+    at Socket.<anonymous> (/www/wwwroot/lease_house/node_modules/mysql/lib/Connection.js:94:28)
+    at Socket.<anonymous> (/www/wwwroot/lease_house/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (events.js:322:22)
+    at endReadableNT (_stream_readable.js:1187:12)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21)
+Error: Connection lost: The server closed the connection.
+    at Protocol.end (/www/wwwroot/lease_house/node_modules/mysql/lib/protocol/Protocol.js:112:13)
+    at Socket.<anonymous> (/www/wwwroot/lease_house/node_modules/mysql/lib/Connection.js:94:28)
+    at Socket.<anonymous> (/www/wwwroot/lease_house/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (events.js:322:22)
+    at endReadableNT (_stream_readable.js:1187:12)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21)
+Error: Connection lost: The server closed the connection.
+    at Protocol.end (/www/wwwroot/lease_house/node_modules/mysql/lib/protocol/Protocol.js:112:13)
+    at Socket.<anonymous> (/www/wwwroot/lease_house/node_modules/mysql/lib/Connection.js:94:28)
+    at Socket.<anonymous> (/www/wwwroot/lease_house/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (events.js:322:22)
+    at endReadableNT (_stream_readable.js:1187:12)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21)
+Error: Connection lost: The server closed the connection.
+    at Protocol.end (/www/wwwroot/lease_house/node_modules/mysql/lib/protocol/Protocol.js:112:13)
+    at Socket.<anonymous> (/www/wwwroot/lease_house/node_modules/mysql/lib/Connection.js:94:28)
+    at Socket.<anonymous> (/www/wwwroot/lease_house/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (events.js:322:22)
+    at endReadableNT (_stream_readable.js:1187:12)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21)
+Error: Connection lost: The server closed the connection.
+    at Protocol.end (/www/wwwroot/lease_house/node_modules/mysql/lib/protocol/Protocol.js:112:13)
+    at Socket.<anonymous> (/www/wwwroot/lease_house/node_modules/mysql/lib/Connection.js:94:28)
+    at Socket.<anonymous> (/www/wwwroot/lease_house/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (events.js:322:22)
+    at endReadableNT (_stream_readable.js:1187:12)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21)
+Error: Connection lost: The server closed the connection.
+    at Protocol.end (/www/wwwroot/lease_house/node_modules/mysql/lib/protocol/Protocol.js:112:13)
+    at Socket.<anonymous> (/www/wwwroot/lease_house/node_modules/mysql/lib/Connection.js:94:28)
+    at Socket.<anonymous> (/www/wwwroot/lease_house/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (events.js:322:22)
+    at endReadableNT (_stream_readable.js:1187:12)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21)
+Error: Connection lost: The server closed the connection.
+    at Protocol.end (/www/wwwroot/lease_house/node_modules/mysql/lib/protocol/Protocol.js:112:13)
+    at Socket.<anonymous> (/www/wwwroot/lease_house/node_modules/mysql/lib/Connection.js:94:28)
+    at Socket.<anonymous> (/www/wwwroot/lease_house/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (events.js:322:22)
+    at endReadableNT (_stream_readable.js:1187:12)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21)
+Error: Connection lost: The server closed the connection.
+    at Protocol.end (/www/wwwroot/lease_house/node_modules/mysql/lib/protocol/Protocol.js:112:13)
+    at Socket.<anonymous> (/www/wwwroot/lease_house/node_modules/mysql/lib/Connection.js:94:28)
+    at Socket.<anonymous> (/www/wwwroot/lease_house/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (events.js:322:22)
+    at endReadableNT (_stream_readable.js:1187:12)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21)
+Error: Connection lost: The server closed the connection.
+    at Protocol.end (/www/wwwroot/lease_house/node_modules/mysql/lib/protocol/Protocol.js:112:13)
+    at Socket.<anonymous> (/www/wwwroot/lease_house/node_modules/mysql/lib/Connection.js:94:28)
+    at Socket.<anonymous> (/www/wwwroot/lease_house/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (events.js:322:22)
+    at endReadableNT (_stream_readable.js:1187:12)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21)
+Error: Connection lost: The server closed the connection.
+    at Protocol.end (/www/wwwroot/lease_house/node_modules/mysql/lib/protocol/Protocol.js:112:13)
+    at Socket.<anonymous> (/www/wwwroot/lease_house/node_modules/mysql/lib/Connection.js:94:28)
+    at Socket.<anonymous> (/www/wwwroot/lease_house/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (events.js:322:22)
+    at endReadableNT (_stream_readable.js:1187:12)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21)
+Error: Connection lost: The server closed the connection.
+    at Protocol.end (/www/wwwroot/lease_house/node_modules/mysql/lib/protocol/Protocol.js:112:13)
+    at Socket.<anonymous> (/www/wwwroot/lease_house/node_modules/mysql/lib/Connection.js:94:28)
+    at Socket.<anonymous> (/www/wwwroot/lease_house/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (events.js:322:22)
+    at endReadableNT (_stream_readable.js:1187:12)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21)
+2020-06-12 20:53:54: 
+2020-06-12 20:53:54:   TypeError: files is not iterable
+      at /www/wwwroot/lease_house/app.js:144:22
+      at processTicksAndRejections (internal/process/task_queues.js:97:5)
+      at async cors (/www/wwwroot/lease_house/node_modules/koa2-cors/dist/index.js:91:9)
+      at async /www/wwwroot/lease_house/app.js:67:5
+      at async serve (/www/wwwroot/lease_house/node_modules/koa-static/index.js:53:9)
+      at async logger (/www/wwwroot/lease_house/node_modules/koa-logger/index.js:67:7)
+      at async bodyParser (/www/wwwroot/lease_house/node_modules/koa-bodyparser/index.js:82:48)
+2020-06-12 20:53:54: 
+2020-06-12 20:53:54: server error:  TypeError: files is not iterable
+    at /www/wwwroot/lease_house/app.js:144:22
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async cors (/www/wwwroot/lease_house/node_modules/koa2-cors/dist/index.js:91:9)
+    at async /www/wwwroot/lease_house/app.js:67:5
+    at async serve (/www/wwwroot/lease_house/node_modules/koa-static/index.js:53:9)
+    at async logger (/www/wwwroot/lease_house/node_modules/koa-logger/index.js:67:7)
+    at async bodyParser (/www/wwwroot/lease_house/node_modules/koa-bodyparser/index.js:82:48) {
+  request: {
+    method: 'POST',
+    url: '/api/house/new?ownerId=null',
+    header: {
+      accept: 'application/json, text/plain, */*',
+      'content-type': 'multipart/form-data; boundary=25fa2a85-8e2c-4feb-9146-c3302e79ee94',
+      'content-length': '1102',
+      host: '101.200.134.15:8000',
+      connection: 'Keep-Alive',
+      'accept-encoding': 'gzip',
+      'user-agent': 'okhttp/3.14.1'
+    }
+  },
+  response: {
+    status: 404,
+    message: 'Not Found',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': '*',
+      'access-control-expose-headers': 'WWW-Authenticate,Server-Authorization'
+    }
+  },
+  app: { subdomainOffset: 2, proxy: false, env: 'development' },
+  originalUrl: '/api/house/new?ownerId=null',
+  req: '<original node req>',
+  res: '<original node res>',
+  socket: '<original node socket>'
+}
+2020-06-12 21:59:31: 
+2020-06-12 21:59:31:   Error: write EPIPE
+      at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:92:16)
+2020-06-12 21:59:31: 
+2020-06-12 21:59:31: server error:  Error: write EPIPE
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:92:16) {
+  errno: 'EPIPE',
+  code: 'EPIPE',
+  syscall: 'write',
+  headerSent: true
+} {
+  request: {
+    method: 'GET',
+    url: '/picture/house/house_92_2.undefined',
+    header: {
+      host: '101.200.134.15:8000',
+      connection: 'Keep-Alive',
+      'accept-encoding': 'gzip',
+      'user-agent': 'okhttp/3.14.1'
+    }
+  },
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      'content-length': '692091',
+      'last-modified': 'Fri, 12 Jun 2020 13:05:26 GMT',
+      'cache-control': 'max-age=0',
+      'content-type': 'application/octet-stream'
+    }
+  },
+  app: { subdomainOffset: 2, proxy: false, env: 'development' },
+  originalUrl: '/picture/house/house_92_2.undefined',
+  req: '<original node req>',
+  res: '<original node res>',
+  socket: '<original node socket>'
+}
+2020-06-12 22:00:02: 
+2020-06-12 22:00:02:   Error: write EPIPE
+      at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:92:16)
+2020-06-12 22:00:02: 
+2020-06-12 22:00:02: server error:  Error: write EPIPE
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:92:16) {
+  errno: 'EPIPE',
+  code: 'EPIPE',
+  syscall: 'write',
+  headerSent: true
+} {
+  request: {
+    method: 'GET',
+    url: '/picture/house/house_92_2.undefined',
+    header: {
+      host: '101.200.134.15:8000',
+      connection: 'Keep-Alive',
+      'accept-encoding': 'gzip',
+      'user-agent': 'okhttp/3.14.1'
+    }
+  },
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      'content-length': '692091',
+      'last-modified': 'Fri, 12 Jun 2020 13:05:26 GMT',
+      'cache-control': 'max-age=0',
+      'content-type': 'application/octet-stream'
+    }
+  },
+  app: { subdomainOffset: 2, proxy: false, env: 'development' },
+  originalUrl: '/picture/house/house_92_2.undefined',
+  req: '<original node req>',
+  res: '<original node res>',
+  socket: '<original node socket>'
+}
+2020-06-12 22:00:09: 
+2020-06-12 22:00:09:   Error: write EPIPE
+      at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:92:16)
+2020-06-12 22:00:09: 
+2020-06-12 22:00:09: server error:  Error: write EPIPE
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:92:16) {
+  errno: 'EPIPE',
+  code: 'EPIPE',
+  syscall: 'write',
+  headerSent: true
+} {
+  request: {
+    method: 'GET',
+    url: '/picture/house/house_92_2.undefined',
+    header: {
+      host: '101.200.134.15:8000',
+      connection: 'Keep-Alive',
+      'accept-encoding': 'gzip',
+      'user-agent': 'okhttp/3.14.1'
+    }
+  },
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      'content-length': '692091',
+      'last-modified': 'Fri, 12 Jun 2020 13:05:26 GMT',
+      'cache-control': 'max-age=0',
+      'content-type': 'application/octet-stream'
+    }
+  },
+  app: { subdomainOffset: 2, proxy: false, env: 'development' },
+  originalUrl: '/picture/house/house_92_2.undefined',
+  req: '<original node req>',
+  res: '<original node res>',
+  socket: '<original node socket>'
+}
+Error: Connection lost: The server closed the connection.
+    at Protocol.end (/www/wwwroot/lease_house/node_modules/mysql/lib/protocol/Protocol.js:112:13)
+    at Socket.<anonymous> (/www/wwwroot/lease_house/node_modules/mysql/lib/Connection.js:94:28)
+    at Socket.<anonymous> (/www/wwwroot/lease_house/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (events.js:322:22)
+    at endReadableNT (_stream_readable.js:1187:12)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21)
+Error: Connection lost: The server closed the connection.
+    at Protocol.end (/www/wwwroot/lease_house/node_modules/mysql/lib/protocol/Protocol.js:112:13)
+    at Socket.<anonymous> (/www/wwwroot/lease_house/node_modules/mysql/lib/Connection.js:94:28)
+    at Socket.<anonymous> (/www/wwwroot/lease_house/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (events.js:322:22)
+    at endReadableNT (_stream_readable.js:1187:12)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21)
+Error: Connection lost: The server closed the connection.
+    at Protocol.end (/www/wwwroot/lease_house/node_modules/mysql/lib/protocol/Protocol.js:112:13)
+    at Socket.<anonymous> (/www/wwwroot/lease_house/node_modules/mysql/lib/Connection.js:94:28)
+    at Socket.<anonymous> (/www/wwwroot/lease_house/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (events.js:322:22)
+    at endReadableNT (_stream_readable.js:1187:12)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21)
+Error: Connection lost: The server closed the connection.
+    at Protocol.end (/www/wwwroot/lease_house/node_modules/mysql/lib/protocol/Protocol.js:112:13)
+    at Socket.<anonymous> (/www/wwwroot/lease_house/node_modules/mysql/lib/Connection.js:94:28)
+    at Socket.<anonymous> (/www/wwwroot/lease_house/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (events.js:322:22)
+    at endReadableNT (_stream_readable.js:1187:12)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21)
+Error: Connection lost: The server closed the connection.
+    at Protocol.end (/www/wwwroot/lease_house/node_modules/mysql/lib/protocol/Protocol.js:112:13)
+    at Socket.<anonymous> (/www/wwwroot/lease_house/node_modules/mysql/lib/Connection.js:94:28)
+    at Socket.<anonymous> (/www/wwwroot/lease_house/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (events.js:322:22)
+    at endReadableNT (_stream_readable.js:1187:12)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21)
+Error: Connection lost: The server closed the connection.
+    at Protocol.end (/www/wwwroot/lease_house/node_modules/mysql/lib/protocol/Protocol.js:112:13)
+    at Socket.<anonymous> (/www/wwwroot/lease_house/node_modules/mysql/lib/Connection.js:94:28)
+    at Socket.<anonymous> (/www/wwwroot/lease_house/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (events.js:322:22)
+    at endReadableNT (_stream_readable.js:1187:12)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21)
+2020-06-15 23:37:33: 
+2020-06-15 23:37:33:   Error: ER_EMPTY_QUERY: Query was empty
+      at Query.Sequence._packetToError (/www/wwwroot/lease_house/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+      at Query.ErrorPacket (/www/wwwroot/lease_house/node_modules/mysql/lib/protocol/sequences/Query.js:79:18)
+      at Protocol._parsePacket (/www/wwwroot/lease_house/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+      at Parser._parsePacket (/www/wwwroot/lease_house/node_modules/mysql/lib/protocol/Parser.js:433:10)
+      at Parser.write (/www/wwwroot/lease_house/node_modules/mysql/lib/protocol/Parser.js:43:10)
+      at Protocol.write (/www/wwwroot/lease_house/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+      at Socket.<anonymous> (/www/wwwroot/lease_house/node_modules/mysql/lib/Connection.js:88:28)
+      at Socket.<anonymous> (/www/wwwroot/lease_house/node_modules/mysql/lib/Connection.js:526:10)
+      at Socket.emit (events.js:310:20)
+      at addChunk (_stream_readable.js:286:12)
+      at readableAddChunk (_stream_readable.js:268:9)
+      at Socket.Readable.push (_stream_readable.js:209:10)
+      at TCP.onStreamRead (internal/stream_base_commons.js:186:23)
+      --------------------
+      at Protocol._enqueue (/www/wwwroot/lease_house/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+      at Connection.query (/www/wwwroot/lease_house/node_modules/mysql/lib/Connection.js:198:25)
+      at /www/wwwroot/lease_house/db/mysql.js:13:13
+      at new Promise (<anonymous>)
+      at exec (/www/wwwroot/lease_house/db/mysql.js:12:21)
+      at getList (/www/wwwroot/lease_house/controller/order.js:16:18)
+      at /www/wwwroot/lease_house/routers/order.js:14:28
+      at dispatch (/www/wwwroot/lease_house/node_modules/koa-compose/index.js:42:32)
+      at /www/wwwroot/lease_house/node_modules/koa-router/lib/router.js:368:16
+      at dispatch (/www/wwwroot/lease_house/node_modules/koa-compose/index.js:42:32)
+      at /www/wwwroot/lease_house/node_modules/koa-compose/index.js:34:12
+      at dispatch (/www/wwwroot/lease_house/node_modules/koa-router/lib/router.js:373:31)
+      at dispatch (/www/wwwroot/lease_house/node_modules/koa-compose/index.js:42:32)
+      at cors (/www/wwwroot/lease_house/node_modules/koa2-cors/dist/index.js:91:15)
+      at dispatch (/www/wwwroot/lease_house/node_modules/koa-compose/index.js:42:32)
+      at /www/wwwroot/lease_house/app.js:67:11
+2020-06-15 23:37:33: 
+2020-06-15 23:37:33: server error:  Error: ER_EMPTY_QUERY: Query was empty
+    at Query.Sequence._packetToError (/www/wwwroot/lease_house/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/www/wwwroot/lease_house/node_modules/mysql/lib/protocol/sequences/Query.js:79:18)
+    at Protocol._parsePacket (/www/wwwroot/lease_house/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/www/wwwroot/lease_house/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/www/wwwroot/lease_house/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/www/wwwroot/lease_house/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/www/wwwroot/lease_house/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/www/wwwroot/lease_house/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (events.js:310:20)
+    at addChunk (_stream_readable.js:286:12)
+    at readableAddChunk (_stream_readable.js:268:9)
+    at Socket.Readable.push (_stream_readable.js:209:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:186:23)
+    --------------------
+    at Protocol._enqueue (/www/wwwroot/lease_house/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Connection.query (/www/wwwroot/lease_house/node_modules/mysql/lib/Connection.js:198:25)
+    at /www/wwwroot/lease_house/db/mysql.js:13:13
+    at new Promise (<anonymous>)
+    at exec (/www/wwwroot/lease_house/db/mysql.js:12:21)
+    at getList (/www/wwwroot/lease_house/controller/order.js:16:18)
+    at /www/wwwroot/lease_house/routers/order.js:14:28
+    at dispatch (/www/wwwroot/lease_house/node_modules/koa-compose/index.js:42:32)
+    at /www/wwwroot/lease_house/node_modules/koa-router/lib/router.js:368:16
+    at dispatch (/www/wwwroot/lease_house/node_modules/koa-compose/index.js:42:32)
+    at /www/wwwroot/lease_house/node_modules/koa-compose/index.js:34:12
+    at dispatch (/www/wwwroot/lease_house/node_modules/koa-router/lib/router.js:373:31)
+    at dispatch (/www/wwwroot/lease_house/node_modules/koa-compose/index.js:42:32)
+    at cors (/www/wwwroot/lease_house/node_modules/koa2-cors/dist/index.js:91:15)
+    at dispatch (/www/wwwroot/lease_house/node_modules/koa-compose/index.js:42:32)
+    at /www/wwwroot/lease_house/app.js:67:11 {
+  code: 'ER_EMPTY_QUERY',
+  errno: 1065,
+  sqlMessage: 'Query was empty',
+  sqlState: '42000',
+  index: 0,
+  sql: ''
+} {
+  request: {
+    method: 'GET',
+    url: '/api/order/list?myid=2',
+    header: {
+      accept: 'application/json, text/plain, */*',
+      host: '101.200.134.15:8000',
+      connection: 'Keep-Alive',
+      'accept-encoding': 'gzip',
+      'user-agent': 'okhttp/3.14.1'
+    }
+  },
+  response: {
+    status: 404,
+    message: 'Not Found',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': '*',
+      'access-control-expose-headers': 'WWW-Authenticate,Server-Authorization'
+    }
+  },
+  app: { subdomainOffset: 2, proxy: false, env: 'development' },
+  originalUrl: '/api/order/list?myid=2',
+  req: '<original node req>',
+  res: '<original node res>',
+  socket: '<original node socket>'
+}
+2020-06-15 23:37:44: 
+2020-06-15 23:37:44:   Error: ER_EMPTY_QUERY: Query was empty
+      at Query.Sequence._packetToError (/www/wwwroot/lease_house/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+      at Query.ErrorPacket (/www/wwwroot/lease_house/node_modules/mysql/lib/protocol/sequences/Query.js:79:18)
+      at Protocol._parsePacket (/www/wwwroot/lease_house/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+      at Parser._parsePacket (/www/wwwroot/lease_house/node_modules/mysql/lib/protocol/Parser.js:433:10)
+      at Parser.write (/www/wwwroot/lease_house/node_modules/mysql/lib/protocol/Parser.js:43:10)
+      at Protocol.write (/www/wwwroot/lease_house/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+      at Socket.<anonymous> (/www/wwwroot/lease_house/node_modules/mysql/lib/Connection.js:88:28)
+      at Socket.<anonymous> (/www/wwwroot/lease_house/node_modules/mysql/lib/Connection.js:526:10)
+      at Socket.emit (events.js:310:20)
+      at addChunk (_stream_readable.js:286:12)
+      at readableAddChunk (_stream_readable.js:268:9)
+      at Socket.Readable.push (_stream_readable.js:209:10)
+      at TCP.onStreamRead (internal/stream_base_commons.js:186:23)
+      --------------------
+      at Protocol._enqueue (/www/wwwroot/lease_house/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+      at Connection.query (/www/wwwroot/lease_house/node_modules/mysql/lib/Connection.js:198:25)
+      at /www/wwwroot/lease_house/db/mysql.js:13:13
+      at new Promise (<anonymous>)
+      at exec (/www/wwwroot/lease_house/db/mysql.js:12:21)
+      at getList (/www/wwwroot/lease_house/controller/order.js:16:18)
+      at /www/wwwroot/lease_house/routers/order.js:14:28
+      at dispatch (/www/wwwroot/lease_house/node_modules/koa-compose/index.js:42:32)
+      at /www/wwwroot/lease_house/node_modules/koa-router/lib/router.js:368:16
+      at dispatch (/www/wwwroot/lease_house/node_modules/koa-compose/index.js:42:32)
+      at /www/wwwroot/lease_house/node_modules/koa-compose/index.js:34:12
+      at dispatch (/www/wwwroot/lease_house/node_modules/koa-router/lib/router.js:373:31)
+      at dispatch (/www/wwwroot/lease_house/node_modules/koa-compose/index.js:42:32)
+      at cors (/www/wwwroot/lease_house/node_modules/koa2-cors/dist/index.js:91:15)
+      at dispatch (/www/wwwroot/lease_house/node_modules/koa-compose/index.js:42:32)
+      at /www/wwwroot/lease_house/app.js:67:11
+2020-06-15 23:37:44: 
+2020-06-15 23:37:44: server error:  Error: ER_EMPTY_QUERY: Query was empty
+    at Query.Sequence._packetToError (/www/wwwroot/lease_house/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/www/wwwroot/lease_house/node_modules/mysql/lib/protocol/sequences/Query.js:79:18)
+    at Protocol._parsePacket (/www/wwwroot/lease_house/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/www/wwwroot/lease_house/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/www/wwwroot/lease_house/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/www/wwwroot/lease_house/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/www/wwwroot/lease_house/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/www/wwwroot/lease_house/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (events.js:310:20)
+    at addChunk (_stream_readable.js:286:12)
+    at readableAddChunk (_stream_readable.js:268:9)
+    at Socket.Readable.push (_stream_readable.js:209:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:186:23)
+    --------------------
+    at Protocol._enqueue (/www/wwwroot/lease_house/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Connection.query (/www/wwwroot/lease_house/node_modules/mysql/lib/Connection.js:198:25)
+    at /www/wwwroot/lease_house/db/mysql.js:13:13
+    at new Promise (<anonymous>)
+    at exec (/www/wwwroot/lease_house/db/mysql.js:12:21)
+    at getList (/www/wwwroot/lease_house/controller/order.js:16:18)
+    at /www/wwwroot/lease_house/routers/order.js:14:28
+    at dispatch (/www/wwwroot/lease_house/node_modules/koa-compose/index.js:42:32)
+    at /www/wwwroot/lease_house/node_modules/koa-router/lib/router.js:368:16
+    at dispatch (/www/wwwroot/lease_house/node_modules/koa-compose/index.js:42:32)
+    at /www/wwwroot/lease_house/node_modules/koa-compose/index.js:34:12
+    at dispatch (/www/wwwroot/lease_house/node_modules/koa-router/lib/router.js:373:31)
+    at dispatch (/www/wwwroot/lease_house/node_modules/koa-compose/index.js:42:32)
+    at cors (/www/wwwroot/lease_house/node_modules/koa2-cors/dist/index.js:91:15)
+    at dispatch (/www/wwwroot/lease_house/node_modules/koa-compose/index.js:42:32)
+    at /www/wwwroot/lease_house/app.js:67:11 {
+  code: 'ER_EMPTY_QUERY',
+  errno: 1065,
+  sqlMessage: 'Query was empty',
+  sqlState: '42000',
+  index: 0,
+  sql: ''
+} {
+  request: {
+    method: 'GET',
+    url: '/api/order/list?myid=2&&',
+    header: {
+      accept: 'application/json, text/plain, */*',
+      host: '101.200.134.15:8000',
+      connection: 'Keep-Alive',
+      'accept-encoding': 'gzip',
+      'user-agent': 'okhttp/3.14.1'
+    }
+  },
+  response: {
+    status: 404,
+    message: 'Not Found',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': '*',
+      'access-control-expose-headers': 'WWW-Authenticate,Server-Authorization'
+    }
+  },
+  app: { subdomainOffset: 2, proxy: false, env: 'development' },
+  originalUrl: '/api/order/list?myid=2&&',
+  req: '<original node req>',
+  res: '<original node res>',
+  socket: '<original node socket>'
+}
+Error: Connection lost: The server closed the connection.
+    at Protocol.end (/www/wwwroot/lease_house/node_modules/mysql/lib/protocol/Protocol.js:112:13)
+    at Socket.<anonymous> (/www/wwwroot/lease_house/node_modules/mysql/lib/Connection.js:94:28)
+    at Socket.<anonymous> (/www/wwwroot/lease_house/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (events.js:322:22)
+    at endReadableNT (_stream_readable.js:1187:12)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21)
+Error: Connection lost: The server closed the connection.
+    at Protocol.end (/www/wwwroot/lease_house/node_modules/mysql/lib/protocol/Protocol.js:112:13)
+    at Socket.<anonymous> (/www/wwwroot/lease_house/node_modules/mysql/lib/Connection.js:94:28)
+    at Socket.<anonymous> (/www/wwwroot/lease_house/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (events.js:322:22)
+    at endReadableNT (_stream_readable.js:1187:12)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21)
+Error: Connection lost: The server closed the connection.
+    at Protocol.end (/www/wwwroot/lease_house/node_modules/mysql/lib/protocol/Protocol.js:112:13)
+    at Socket.<anonymous> (/www/wwwroot/lease_house/node_modules/mysql/lib/Connection.js:94:28)
+    at Socket.<anonymous> (/www/wwwroot/lease_house/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (events.js:322:22)
+    at endReadableNT (_stream_readable.js:1187:12)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21)
+Error: Connection lost: The server closed the connection.
+    at Protocol.end (/www/wwwroot/lease_house/node_modules/mysql/lib/protocol/Protocol.js:112:13)
+    at Socket.<anonymous> (/www/wwwroot/lease_house/node_modules/mysql/lib/Connection.js:94:28)
+    at Socket.<anonymous> (/www/wwwroot/lease_house/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (events.js:322:22)
+    at endReadableNT (_stream_readable.js:1187:12)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21)
+2020-06-18 08:53:28: 
+2020-06-18 08:53:28:   TypeError: files is not iterable
+      at /www/wwwroot/lease_house/app.js:144:22
+      at processTicksAndRejections (internal/process/task_queues.js:97:5)
+      at async cors (/www/wwwroot/lease_house/node_modules/koa2-cors/dist/index.js:91:9)
+      at async /www/wwwroot/lease_house/app.js:67:5
+      at async serve (/www/wwwroot/lease_house/node_modules/koa-static/index.js:53:9)
+      at async logger (/www/wwwroot/lease_house/node_modules/koa-logger/index.js:67:7)
+      at async bodyParser (/www/wwwroot/lease_house/node_modules/koa-bodyparser/index.js:82:48)
+2020-06-18 08:53:28: 
+2020-06-18 08:53:28: server error:  TypeError: files is not iterable
+    at /www/wwwroot/lease_house/app.js:144:22
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async cors (/www/wwwroot/lease_house/node_modules/koa2-cors/dist/index.js:91:9)
+    at async /www/wwwroot/lease_house/app.js:67:5
+    at async serve (/www/wwwroot/lease_house/node_modules/koa-static/index.js:53:9)
+    at async logger (/www/wwwroot/lease_house/node_modules/koa-logger/index.js:67:7)
+    at async bodyParser (/www/wwwroot/lease_house/node_modules/koa-bodyparser/index.js:82:48) {
+  request: {
+    method: 'POST',
+    url: '/api/house/new?ownerId=33',
+    header: {
+      accept: 'application/json, text/plain, */*',
+      'content-type': 'multipart/form-data; boundary=562021be-171c-4ef5-b729-8e22772c072e',
+      'content-length': '924781',
+      host: '101.200.134.15:8000',
+      connection: 'Keep-Alive',
+      'accept-encoding': 'gzip',
+      'user-agent': 'okhttp/3.12.1'
+    }
+  },
+  response: {
+    status: 404,
+    message: 'Not Found',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': '*',
+      'access-control-expose-headers': 'WWW-Authenticate,Server-Authorization'
+    }
+  },
+  app: { subdomainOffset: 2, proxy: false, env: 'development' },
+  originalUrl: '/api/house/new?ownerId=33',
+  req: '<original node req>',
+  res: '<original node res>',
+  socket: '<original node socket>'
+}
+2020-06-18 23:22:53: 
+2020-06-18 23:22:53:   TypeError: Cannot read property 'user' of undefined
+      at /www/wwwroot/lease_house/app.js:111:36
+      at dispatch (/www/wwwroot/lease_house/node_modules/koa-compose/index.js:42:32)
+      at /www/wwwroot/lease_house/node_modules/koa-router/lib/router.js:368:16
+      at dispatch (/www/wwwroot/lease_house/node_modules/koa-compose/index.js:42:32)
+      at /www/wwwroot/lease_house/node_modules/koa-compose/index.js:34:12
+      at dispatch (/www/wwwroot/lease_house/node_modules/koa-router/lib/router.js:373:31)
+      at dispatch (/www/wwwroot/lease_house/node_modules/koa-compose/index.js:42:32)
+      at cors (/www/wwwroot/lease_house/node_modules/koa2-cors/dist/index.js:91:15)
+      at dispatch (/www/wwwroot/lease_house/node_modules/koa-compose/index.js:42:32)
+      at /www/wwwroot/lease_house/app.js:68:11
+      at dispatch (/www/wwwroot/lease_house/node_modules/koa-compose/index.js:42:32)
+      at views (/www/wwwroot/lease_house/node_modules/koa-views/src/index.js:76:12)
+      at dispatch (/www/wwwroot/lease_house/node_modules/koa-compose/index.js:42:32)
+      at serve (/www/wwwroot/lease_house/node_modules/koa-static/index.js:53:15)
+      at dispatch (/www/wwwroot/lease_house/node_modules/koa-compose/index.js:42:32)
+      at logger (/www/wwwroot/lease_house/node_modules/koa-logger/index.js:67:13)
+2020-06-18 23:22:53: 
+2020-06-18 23:22:53: server error:  TypeError: Cannot read property 'user' of undefined
+    at /www/wwwroot/lease_house/app.js:111:36
+    at dispatch (/www/wwwroot/lease_house/node_modules/koa-compose/index.js:42:32)
+    at /www/wwwroot/lease_house/node_modules/koa-router/lib/router.js:368:16
+    at dispatch (/www/wwwroot/lease_house/node_modules/koa-compose/index.js:42:32)
+    at /www/wwwroot/lease_house/node_modules/koa-compose/index.js:34:12
+    at dispatch (/www/wwwroot/lease_house/node_modules/koa-router/lib/router.js:373:31)
+    at dispatch (/www/wwwroot/lease_house/node_modules/koa-compose/index.js:42:32)
+    at cors (/www/wwwroot/lease_house/node_modules/koa2-cors/dist/index.js:91:15)
+    at dispatch (/www/wwwroot/lease_house/node_modules/koa-compose/index.js:42:32)
+    at /www/wwwroot/lease_house/app.js:68:11
+    at dispatch (/www/wwwroot/lease_house/node_modules/koa-compose/index.js:42:32)
+    at views (/www/wwwroot/lease_house/node_modules/koa-views/src/index.js:76:12)
+    at dispatch (/www/wwwroot/lease_house/node_modules/koa-compose/index.js:42:32)
+    at serve (/www/wwwroot/lease_house/node_modules/koa-static/index.js:53:15)
+    at dispatch (/www/wwwroot/lease_house/node_modules/koa-compose/index.js:42:32)
+    at logger (/www/wwwroot/lease_house/node_modules/koa-logger/index.js:67:13) {
+  request: {
+    method: 'POST',
+    url: '/api/user/update?userid=1',
+    header: {
+      accept: 'application/json, text/plain, */*',
+      'content-type': 'application/json;charset=utf-8',
+      'content-length': '105',
+      host: '101.200.134.15:8000',
+      connection: 'Keep-Alive',
+      'accept-encoding': 'gzip',
+      'user-agent': 'okhttp/3.14.1'
+    }
+  },
+  response: {
+    status: 404,
+    message: 'Not Found',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': '*',
+      'access-control-expose-headers': 'WWW-Authenticate,Server-Authorization'
+    }
+  },
+  app: { subdomainOffset: 2, proxy: false, env: 'development' },
+  originalUrl: '/api/user/update?userid=1',
+  req: '<original node req>',
+  res: '<original node res>',
+  socket: '<original node socket>'
+}
+2020-06-18 23:24:42: 
+2020-06-18 23:24:42:   TypeError: Cannot read property 'user' of undefined
+      at /www/wwwroot/lease_house/app.js:111:36
+      at dispatch (/www/wwwroot/lease_house/node_modules/koa-compose/index.js:42:32)
+      at /www/wwwroot/lease_house/node_modules/koa-router/lib/router.js:368:16
+      at dispatch (/www/wwwroot/lease_house/node_modules/koa-compose/index.js:42:32)
+      at /www/wwwroot/lease_house/node_modules/koa-compose/index.js:34:12
+      at dispatch (/www/wwwroot/lease_house/node_modules/koa-router/lib/router.js:373:31)
+      at dispatch (/www/wwwroot/lease_house/node_modules/koa-compose/index.js:42:32)
+      at cors (/www/wwwroot/lease_house/node_modules/koa2-cors/dist/index.js:91:15)
+      at dispatch (/www/wwwroot/lease_house/node_modules/koa-compose/index.js:42:32)
+      at /www/wwwroot/lease_house/app.js:68:11
+      at dispatch (/www/wwwroot/lease_house/node_modules/koa-compose/index.js:42:32)
+      at views (/www/wwwroot/lease_house/node_modules/koa-views/src/index.js:76:12)
+      at dispatch (/www/wwwroot/lease_house/node_modules/koa-compose/index.js:42:32)
+      at serve (/www/wwwroot/lease_house/node_modules/koa-static/index.js:53:15)
+      at dispatch (/www/wwwroot/lease_house/node_modules/koa-compose/index.js:42:32)
+      at logger (/www/wwwroot/lease_house/node_modules/koa-logger/index.js:67:13)
+2020-06-18 23:24:42: 
+2020-06-18 23:24:42: server error:  TypeError: Cannot read property 'user' of undefined
+    at /www/wwwroot/lease_house/app.js:111:36
+    at dispatch (/www/wwwroot/lease_house/node_modules/koa-compose/index.js:42:32)
+    at /www/wwwroot/lease_house/node_modules/koa-router/lib/router.js:368:16
+    at dispatch (/www/wwwroot/lease_house/node_modules/koa-compose/index.js:42:32)
+    at /www/wwwroot/lease_house/node_modules/koa-compose/index.js:34:12
+    at dispatch (/www/wwwroot/lease_house/node_modules/koa-router/lib/router.js:373:31)
+    at dispatch (/www/wwwroot/lease_house/node_modules/koa-compose/index.js:42:32)
+    at cors (/www/wwwroot/lease_house/node_modules/koa2-cors/dist/index.js:91:15)
+    at dispatch (/www/wwwroot/lease_house/node_modules/koa-compose/index.js:42:32)
+    at /www/wwwroot/lease_house/app.js:68:11
+    at dispatch (/www/wwwroot/lease_house/node_modules/koa-compose/index.js:42:32)
+    at views (/www/wwwroot/lease_house/node_modules/koa-views/src/index.js:76:12)
+    at dispatch (/www/wwwroot/lease_house/node_modules/koa-compose/index.js:42:32)
+    at serve (/www/wwwroot/lease_house/node_modules/koa-static/index.js:53:15)
+    at dispatch (/www/wwwroot/lease_house/node_modules/koa-compose/index.js:42:32)
+    at logger (/www/wwwroot/lease_house/node_modules/koa-logger/index.js:67:13) {
+  request: {
+    method: 'POST',
+    url: '/api/user/update?userid=1',
+    header: {
+      accept: 'application/json, text/plain, */*',
+      'content-type': 'application/json;charset=utf-8',
+      'content-length': '105',
+      host: '101.200.134.15:8000',
+      connection: 'Keep-Alive',
+      'accept-encoding': 'gzip',
+      'user-agent': 'okhttp/3.14.1'
+    }
+  },
+  response: {
+    status: 404,
+    message: 'Not Found',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': '*',
+      'access-control-expose-headers': 'WWW-Authenticate,Server-Authorization'
+    }
+  },
+  app: { subdomainOffset: 2, proxy: false, env: 'development' },
+  originalUrl: '/api/user/update?userid=1',
+  req: '<original node req>',
+  res: '<original node res>',
+  socket: '<original node socket>'
+}
+Error: Connection lost: The server closed the connection.
+    at Protocol.end (/www/wwwroot/lease_house/node_modules/mysql/lib/protocol/Protocol.js:112:13)
+    at Socket.<anonymous> (/www/wwwroot/lease_house/node_modules/mysql/lib/Connection.js:94:28)
+    at Socket.<anonymous> (/www/wwwroot/lease_house/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (events.js:322:22)
+    at endReadableNT (_stream_readable.js:1187:12)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21)
+Error: Connection lost: The server closed the connection.
+    at Protocol.end (/www/wwwroot/lease_house/node_modules/mysql/lib/protocol/Protocol.js:112:13)
+    at Socket.<anonymous> (/www/wwwroot/lease_house/node_modules/mysql/lib/Connection.js:94:28)
+    at Socket.<anonymous> (/www/wwwroot/lease_house/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (events.js:322:22)
+    at endReadableNT (_stream_readable.js:1187:12)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21)
+Error: Connection lost: The server closed the connection.
+    at Protocol.end (/www/wwwroot/lease_house/node_modules/mysql/lib/protocol/Protocol.js:112:13)
+    at Socket.<anonymous> (/www/wwwroot/lease_house/node_modules/mysql/lib/Connection.js:94:28)
+    at Socket.<anonymous> (/www/wwwroot/lease_house/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (events.js:322:22)
+    at endReadableNT (_stream_readable.js:1187:12)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21)
+Error: Connection lost: The server closed the connection.
+    at Protocol.end (/www/wwwroot/lease_house/node_modules/mysql/lib/protocol/Protocol.js:112:13)
+    at Socket.<anonymous> (/www/wwwroot/lease_house/node_modules/mysql/lib/Connection.js:94:28)
+    at Socket.<anonymous> (/www/wwwroot/lease_house/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (events.js:322:22)
+    at endReadableNT (_stream_readable.js:1187:12)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21)
+Error: Connection lost: The server closed the connection.
+    at Protocol.end (/www/wwwroot/lease_house/node_modules/mysql/lib/protocol/Protocol.js:112:13)
+    at Socket.<anonymous> (/www/wwwroot/lease_house/node_modules/mysql/lib/Connection.js:94:28)
+    at Socket.<anonymous> (/www/wwwroot/lease_house/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (events.js:322:22)
+    at endReadableNT (_stream_readable.js:1187:12)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21)
+2020-06-21 23:20:57: 
+2020-06-21 23:20:57:   TypeError: files is not iterable
+      at /www/wwwroot/lease_house/app.js:145:22
+      at runMicrotasks (<anonymous>)
+      at processTicksAndRejections (internal/process/task_queues.js:97:5)
+      at async cors (/www/wwwroot/lease_house/node_modules/koa2-cors/dist/index.js:91:9)
+      at async /www/wwwroot/lease_house/app.js:68:5
+      at async serve (/www/wwwroot/lease_house/node_modules/koa-static/index.js:53:9)
+      at async logger (/www/wwwroot/lease_house/node_modules/koa-logger/index.js:67:7)
+      at async bodyParser (/www/wwwroot/lease_house/node_modules/koa-bodyparser/index.js:82:48)
+2020-06-21 23:20:57: 
+2020-06-21 23:20:57: server error:  TypeError: files is not iterable
+    at /www/wwwroot/lease_house/app.js:145:22
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async cors (/www/wwwroot/lease_house/node_modules/koa2-cors/dist/index.js:91:9)
+    at async /www/wwwroot/lease_house/app.js:68:5
+    at async serve (/www/wwwroot/lease_house/node_modules/koa-static/index.js:53:9)
+    at async logger (/www/wwwroot/lease_house/node_modules/koa-logger/index.js:67:7)
+    at async bodyParser (/www/wwwroot/lease_house/node_modules/koa-bodyparser/index.js:82:48) {
+  request: {
+    method: 'POST',
+    url: '/api/house/new?ownerId=2',
+    header: {
+      accept: 'application/json, text/plain, */*',
+      'content-type': 'multipart/form-data; boundary=78707bee-e3c6-4f3c-8d70-a3beb93ce23d',
+      'content-length': '9521805',
+      host: '101.200.134.15:8000',
+      connection: 'Keep-Alive',
+      'accept-encoding': 'gzip',
+      'user-agent': 'okhttp/3.12.1'
+    }
+  },
+  response: {
+    status: 404,
+    message: 'Not Found',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': '*',
+      'access-control-expose-headers': 'WWW-Authenticate,Server-Authorization'
+    }
+  },
+  app: { subdomainOffset: 2, proxy: false, env: 'development' },
+  originalUrl: '/api/house/new?ownerId=2',
+  req: '<original node req>',
+  res: '<original node res>',
+  socket: '<original node socket>'
+}
+Error: Connection lost: The server closed the connection.
+    at Protocol.end (/www/wwwroot/lease_house/node_modules/mysql/lib/protocol/Protocol.js:112:13)
+    at Socket.<anonymous> (/www/wwwroot/lease_house/node_modules/mysql/lib/Connection.js:94:28)
+    at Socket.<anonymous> (/www/wwwroot/lease_house/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (events.js:322:22)
+    at endReadableNT (_stream_readable.js:1187:12)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21)
+2020-06-22 14:19:37: 
+2020-06-22 14:19:37:   TypeError: files is not iterable
+      at /www/wwwroot/lease_house/app.js:145:22
+      at processTicksAndRejections (internal/process/task_queues.js:97:5)
+      at async cors (/www/wwwroot/lease_house/node_modules/koa2-cors/dist/index.js:91:9)
+      at async /www/wwwroot/lease_house/app.js:68:5
+      at async serve (/www/wwwroot/lease_house/node_modules/koa-static/index.js:53:9)
+      at async logger (/www/wwwroot/lease_house/node_modules/koa-logger/index.js:67:7)
+      at async bodyParser (/www/wwwroot/lease_house/node_modules/koa-bodyparser/index.js:82:48)
+2020-06-22 14:19:37: 
+2020-06-22 14:19:37: server error:  TypeError: files is not iterable
+    at /www/wwwroot/lease_house/app.js:145:22
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async cors (/www/wwwroot/lease_house/node_modules/koa2-cors/dist/index.js:91:9)
+    at async /www/wwwroot/lease_house/app.js:68:5
+    at async serve (/www/wwwroot/lease_house/node_modules/koa-static/index.js:53:9)
+    at async logger (/www/wwwroot/lease_house/node_modules/koa-logger/index.js:67:7)
+    at async bodyParser (/www/wwwroot/lease_house/node_modules/koa-bodyparser/index.js:82:48) {
+  request: {
+    method: 'POST',
+    url: '/api/house/new?ownerId=2',
+    header: {
+      accept: 'application/json, text/plain, */*',
+      'content-type': 'multipart/form-data; boundary=91b6b099-62b6-4668-964b-524dab1239e1',
+      'content-length': '1217',
+      host: '101.200.134.15:8000',
+      connection: 'Keep-Alive',
+      'accept-encoding': 'gzip',
+      'user-agent': 'okhttp/3.12.1'
+    }
+  },
+  response: {
+    status: 404,
+    message: 'Not Found',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': '*',
+      'access-control-expose-headers': 'WWW-Authenticate,Server-Authorization'
+    }
+  },
+  app: { subdomainOffset: 2, proxy: false, env: 'development' },
+  originalUrl: '/api/house/new?ownerId=2',
+  req: '<original node req>',
+  res: '<original node res>',
+  socket: '<original node socket>'
+}
+Error: Connection lost: The server closed the connection.
+    at Protocol.end (/www/wwwroot/lease_house/node_modules/mysql/lib/protocol/Protocol.js:112:13)
+    at Socket.<anonymous> (/www/wwwroot/lease_house/node_modules/mysql/lib/Connection.js:94:28)
+    at Socket.<anonymous> (/www/wwwroot/lease_house/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (events.js:322:22)
+    at endReadableNT (_stream_readable.js:1187:12)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21)
